@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Home">
+  <grid id="27dc6" binding="mainn" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="544" height="567"/>
+    </constraints>
+    <properties>
+      <background color="-2971662"/>
+      <enabled value="false"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <component id="ecf21" class="javax.swing.JButton" binding="customerButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Customer"/>
+        </properties>
+      </component>
+      <component id="d9c41" class="javax.swing.JButton" binding="maxAmountButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Max. Amount"/>
+        </properties>
+      </component>
+      <component id="557a0" class="javax.swing.JButton" binding="menuButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Menu"/>
+        </properties>
+      </component>
+      <scrollpane id="fef64" binding="displayTable">
+        <constraints>
+          <grid row="1" column="1" row-span="10" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-860177"/>
+          <enabled value="true"/>
+          <font name="Bodoni MT" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="14750" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <autoResizeMode value="2"/>
+              <dropMode value="ON"/>
+              <fillsViewportHeight value="true"/>
+              <font/>
+              <gridColor color="-16777216"/>
+              <intercellSpacing width="2" height="2"/>
+              <selectionBackground color="-595713"/>
+              <toolTipText value=""/>
+              <updateSelectionOnSort value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="fc709" class="javax.swing.JButton" binding="mostOrderedButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Most Ordered"/>
+        </properties>
+      </component>
+      <component id="bcbf7" class="javax.swing.JButton" binding="maxOrderButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Max. Order"/>
+        </properties>
+      </component>
+      <component id="aad2b" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="7e78c" class="javax.swing.JTextField" binding="textId">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <font/>
+        </properties>
+      </component>
+      <component id="aa49d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="12"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bell MT" size="10" style="1"/>
+          <labelFor value="7e78c"/>
+          <text value="Find Details using Customer ID"/>
+        </properties>
+      </component>
+      <vspacer id="5d7fe">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="14"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="e5c9c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="26" style="1"/>
+          <text value="Restaurent"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
