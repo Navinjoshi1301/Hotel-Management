@@ -99,7 +99,6 @@ public class Details extends JFrame {
                         "group by customer.cstmr_id,customer.cstmr_name\n"
                 ;
             }
-
             pst = con.prepareStatement(q);
             String str=Home.customerrr;
             System.out.println(str+"Details");
